@@ -11,7 +11,7 @@ pipeline{
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "localhost:8081"
-        NEXUS_REPOSITORY = "webapp-demo"
+        NEXUS_REPOSITORY = "webapp-repo"
         NEXUS_CREDENTIAL_ID = "nexus"
         // MVNHOME = tool name: 'Maven_3.8.5', type: 'maven'
         // MVNCOMMAND = "${mvnhome}/bin/mvn"
