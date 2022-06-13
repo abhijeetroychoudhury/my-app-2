@@ -20,7 +20,7 @@ pipeline{
     stage ('SCM Checkout'){
       steps{
         script{
-        git branch: 'master', 
+        git branch: 'abhijeet_roy', 
         credentialsId: 'github-personal', 
         url: 'https://github.com/abhijeetroychoudhury/my-app-2.git'
       }
