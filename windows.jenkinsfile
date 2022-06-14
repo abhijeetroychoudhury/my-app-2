@@ -167,8 +167,10 @@ pipeline{
    }
   }
   post {
-      always {
-        junit '**/reports/junit/*.xml'
-      }
+     always {
+      junit(
+        allowEmptyResults: true,
+        testResults: '**/test-reports/*.xml'
+      )
     } 
 }
